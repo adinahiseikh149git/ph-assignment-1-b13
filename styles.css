@@ -70,7 +70,7 @@ body{
     padding: 8px 12px;
     margin-bottom: 16px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 100;
  }
  .hero-container h1{
     opacity: 90%;
@@ -97,10 +97,15 @@ body{
     background-color: transparent;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 100;
     display: flex;
     gap: 10px;
    
+ }
+ .hero-button .btn-1{
+   display: flex;
+   
+    gap: 5px;
  }
  
  /* Notes section styles */
@@ -154,6 +159,7 @@ body{
  }
  /* Second Brain Section styles */
  .brain-container{
+   margin: 120px;
    display: flex;
    align-items: center;
    gap: 60px;
@@ -164,6 +170,7 @@ body{
    max-width: 600px;
    height: 600px;
 }
+
 .brain-content h2{
           font-size: 48px;
           font-weight: 700;
@@ -187,3 +194,66 @@ body{
    line-height: 20px;
    font-size: medium;
 }
+/* Early Access Section styles */
+.access-container{
+   background-color: #F7F6F2;
+   margin: 0 120px 120px 120px;
+   text-align: center;
+   padding: 80px 40px;
+}
+.access-container h2{
+   font-size: 40;
+   font-weight: bold;
+   margin-bottom: 16px;
+}
+.access-container p{
+   font-size: 16px;
+   line-height: 24px;
+   color: #627382;
+   margin-bottom: 24px;
+}
+.access-container .btn-1{
+   margin-bottom:16px ;
+}
+ .access-container .btn-1 img{
+   position: relative;
+   top: 5px;
+   left: 3px;
+
+ }
+ /* Footer section style */
+ footer{
+   background-color: #001931;
+   padding: 120px 120px 30px ;
+ }
+ .foot-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+ }
+ .foot-container p{
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 28px;
+   margin-bottom: 16px;
+ }
+ .icon{
+   display: flex;
+   gap: 16px;
+ }
+ .foot-end{
+    
+        color: #FAFAFA;
+        text-align: center;
+        
+ }
+ .foot-end p{
+   font-size: 16px;
+   line-height: 24px;
+ }
+ .btn-1:hover,  .btn-3:hover{
+   background-color: #FFFFFF;
+   border: solid 0.5px #FFFFFF;
+   color: #000000;
+ }
