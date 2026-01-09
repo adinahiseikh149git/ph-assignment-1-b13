@@ -16,7 +16,13 @@ body{
     border-radius: 4px;
     padding:16px 12px ;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
 
+}
+.btn-1{
+    background-color: #469165;
+    color: #FFFFFF;
 }
  /* Header section style */
  #nav-bar .nav-container{
@@ -34,14 +40,77 @@ body{
  #nav-bar .nav-container .nav-items{
     display: flex;
     gap:32px;
+    
  }
   #nav-bar .nav-container .nav-items p{
     color: #000000;
     opacity: 90%;
     line-height: 152%;
+    font-size: 16px ;
+    font-weight: 500 ;
  }
- #nav-bar .nav-container .btn-1{
-    background-color: #469165;
-    color: #FFFFFF;
+  
+
+ 
+ /* Hero Section styles */
+ #hero{
+    background-image: url(./assets/hero-bg.png);
+    padding: 70px 120px 134px;
+    background-position: center;
 
  }
+ .hero-container{
+    text-align: center;
+ }
+ .hero-container .btn-2{
+    background-color: #FFFFFF;
+    color: #469165;
+    border: none;
+    border-radius: 8px ;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .hero-container h1{
+    opacity: 90%;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 16px;
+ }
+ .hero-container p{
+    color: #FFFFFF;
+    opacity: 80%;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+ }
+ .hero-button{
+    display: flex;
+    gap: 10px ;
+    justify-content: center;
+ }
+ .hero-button .btn-3{
+    border: solid 0.5px #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 20px;
+ }
+ .btn-3::before{
+    content: "";
+   background-image: url(./assets/Play.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 16px;
+   height: 16px;
+   position: absolute;
+   left: 0;
+   top: 50;
+   transform: translateY(-50);
+ }
+ /*  */
